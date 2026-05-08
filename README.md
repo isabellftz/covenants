@@ -17,7 +17,3 @@ The baseline data set used for the empirical analysis of the thesis consists of 
 
 For copyright reasons, the datasets cannot be made available here, but are available from me upon request. 
 
-# Author
-I. Fetzer  <br />
-Humboldt University of Berlin  <br />
-fetzeris@hu-berlin.de.
