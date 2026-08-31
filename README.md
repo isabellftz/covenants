@@ -1,6 +1,6 @@
 # Replication Package
 
-This repository hosts the accompanying code to the thesis: **"Creditors’ Influence on Firm Investment Policy: An Empirical Analysis of Debt Covenant Violations"**.
+This repository hosts the accompanying code to my thesis: **"Creditors’ Influence on Firm Investment Policy: An Empirical Analysis of Debt Covenant Violations"**.
 
 ## Abstract
 I find that debt covenant violations trigger changes in firms’ investment policies. Investigating non-financial U.S. firms (1997–2009), my results confirm Nini et al. (2012): covenant violations consistently reduce growth in total assets, net PPE, and the CapEx-to-assets ratio within one year post-violation (with smaller effects for one-time violators). R&D expenditures scaled by total assets remain unaffected.
