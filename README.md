@@ -1,19 +1,22 @@
-# Bachelor's thesis code
-This repository contains the accompanying code to my bachelor thesis, which
+# Replication Package
 
-1. generates the **baseline sample data set**,
-2. computes **all numbers** (fractions/percentages) used in the thesis text, 
-3. produces **all figures** included in the thesis, and 
-3. automates the creation of **all tables** for a manuscript of the submitted paper's version.
+This repository hosts the accompanying code to the thesis: **"Creditors’ Influence on Firm Investment Policy: An Empirical Analysis of Debt Covenant Violations"**.
 
-Download this repository by clicking the green "Clone or download" button above.
-The main analysis is written in R, but it also uses rscript to generate routines in LaTeX.
+## Abstract
+I find that debt covenant violations trigger changes in firms’ investment policies. Investigating non-financial U.S. firms (1997–2009), my results confirm Nini et al. (2012): covenant violations consistently reduce growth in total assets, net PPE, and the CapEx-to-assets ratio within one year post-violation (with smaller effects for one-time violators). R&D expenditures scaled by total assets remain unaffected.
 
-# Notes 
-The baseline data set used for the empirical analysis of the thesis consists of 44 sub-data sets from three sources: 
-* 42 data sets on firms' accounting data for fiscal years 1996 to 2009, retrieved from *SP Capital IQ*, 
-* one additional data set on firms' accounting data, from *Compustat*, thankfully provided by my professor and
-* one dataset on firms' financial covenant violations, provided at https://amirsufi.net/chronology.html as supplementary material to Greg Nini, David Smith, and Amir Sufi's 2012 paper *"Creditor Control Rights, Corporate Governance, and Firm Value"* (The Review of Financial Studies, 25(6)). Available for direct download via https://amirsufi.net/data-and-appendices/CSTATVIOLATIONS_NSS_20090701.dta
+## What the Code Does
+* Builds the baseline dataset from raw input files.
+* Calculates all summary statistics and in-text numbers.
+* Generates all figures and exports automated LaTeX tables.
 
-For copyright reasons, the datasets cannot be made available here, but are available from me upon request. 
+*Written in R with RScript routines for direct LaTeX export.*
+
+## Data Sources & Notes
+The empirical sample combines 44 sub-datasets from three sources:
+* **S&P Capital IQ:** 42 firm-level accounting datasets (1996–2009).
+* **Compustat:** 1 accounting dataset.
+* **Covenant Violations:** 1 dataset from Nini, Smith, and Sufi (2012, *RFS*), downloadable via [Amir Sufi's Website](https://amirsufi.net/data-and-appendices/CSTATVIOLATIONS_NSS_20090701.dta).
+
+*Note: Proprietary data (Capital IQ, Compustat) cannot be shared publicly due to licensing restrictions, but is available upon request.*
 
